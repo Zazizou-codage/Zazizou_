@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tom Lesage | Développeur Web</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Tom Lesage</h1>
+      <p>Développeur Web en formation</p>
+      <button class="toggle-theme-button" onclick="toggleMode()">
+        🌗 Mode clair / sombre
+      </button>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <section>
+      <img src="ma-photo.jpg" alt="Photo de Tom" id="photo">
+      <h2>Bienvenue sur mon site web !</h2>
+      <p id="intro">
+        Je m'appelle Tom Lesage et voici ma première page web, modernisée pour 2025 ✨
+      </p>
+      <button onclick="changerTexte()">Changer le texte</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Suivez-moi sur :
+      <a href="https://www.instagram.com" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+    </p>
+    <p>&copy; 2025 Tom Lesage. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
